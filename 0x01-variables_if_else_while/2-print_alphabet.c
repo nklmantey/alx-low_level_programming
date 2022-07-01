@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-	char alph;
+	char alph = 'a';
 
-	for (alph = 'a'; alph <= 'z'; alph++)
+	while (alph <= 'z')
+	{
 		putchar(alph);
-		putchar('\n');
-
-	
-return (0);
+		alph++;
+	}
+	putchar('\n');
+	return (0);
 }
