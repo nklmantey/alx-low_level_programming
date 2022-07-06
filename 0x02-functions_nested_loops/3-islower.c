@@ -2,7 +2,7 @@
 /**
  * _islower - entry point
  *
- * @C: ASCII code
+ * @c: ASCII code
  *
  * Return: 1 if lowercase and 0 if not
  */
