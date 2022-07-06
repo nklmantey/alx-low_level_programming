@@ -13,12 +13,12 @@ int print_last_digit(int pld)
 	num = pld % 10;
 	if (num > 0)
 	{
-		printf("%d", num);
+		_putchar(num + '0');
 		return (num);
 	}
 	else
 	{
-		printf("%d", -num);
+		_putchar(-num + '0');
 		return (-num);
 	}
 }
