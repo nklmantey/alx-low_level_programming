@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * times_table - entry point
  *
  * Return: Always 0
