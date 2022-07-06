@@ -2,6 +2,8 @@
 /**
  * _abs - entry point
  *
+ * @abs: value
+ *
  * Return: Always 0 (Success)
  */
 int _abs(int abs)
@@ -10,7 +12,7 @@ int _abs(int abs)
 	{
 		return (abs);
 	}
-	else 
+	else
 	{
 		return (abs * -1);
 	}
