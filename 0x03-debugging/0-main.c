@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * main - debugging
  *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
