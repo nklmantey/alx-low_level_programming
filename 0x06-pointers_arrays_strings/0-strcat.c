@@ -4,7 +4,7 @@
  * @dest: value
  * @src: value
  *
- * Return void
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
@@ -23,5 +23,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-	return (dest);
+	return (dest)i;
 }
