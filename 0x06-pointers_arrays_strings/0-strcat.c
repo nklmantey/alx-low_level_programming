@@ -3,25 +3,20 @@
  * _strcat - concatenates strings
  * @dest: value
  * @src: value
- *
  * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i, c;
 
-	i = 0;
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
-	j = 0;
-	while (src[j] != '\0')
+	for (i = 0; dest[i] != '\0'; i++)
+		;
+	
+	for (c = 0; src[c] != '\0'; c++)
 	{
 		dest[i] = src[i];
 		i++;
-		j++;
 	}
 	dest[i] = '\0';
-	return (dest)i;
+	return (dest);
 }
