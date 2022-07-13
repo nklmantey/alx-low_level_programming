@@ -4,7 +4,7 @@
  * @dest: value
  * @src: value
  *
- * Return: void
+ * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
