@@ -3,6 +3,7 @@
 /**
  * _pow_recursion - exponent
  *
+ * @x: value
  * @y: exponent
  *
  * Return: value
