@@ -19,7 +19,7 @@ int sqrtRec(int n, int m)
 	}
 	return (sqrtRec(n - 1, m));
 }
-/*
+/**
  * _sqrt_recursion - square root
  *
  * @n: value
