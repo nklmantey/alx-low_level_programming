@@ -23,14 +23,15 @@ int sqrtRec(int n, int m)
  *
  * @n: value
  *
- * Return: 1
+ * Return: square root
  */
 int _sqrt_recursion(int n)
 {
 	if (n == 1)
 	{
-		return (sqrtRec(n / 2, n));
+		return (n);
 	}
+	return (sqrtRec(n / 2, n));
 }
 /**
  * is_prime_number - check if number is prime
