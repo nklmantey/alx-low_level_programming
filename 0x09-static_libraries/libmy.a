@@ -1,2 +1,17 @@
 !<arch>
-main.h/    1570965666  1000  1000  100664  0         `
+0-isupper.c/    0           0     0     644     157       `
+#include "main.h"
+/**
+ * _isupper - is upper
+ * @c: value
+ * Return: 1
+ */
+int _isupper(int c)
+{
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	return (0);
+}
+
